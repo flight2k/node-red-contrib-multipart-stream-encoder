@@ -250,14 +250,14 @@ module.exports = function(RED) {
                         // Set all the specified part headers, except for the content-lenth (which we will determine ourselves anyway ...
                         if (partHeaderName.toLowerCase() != "content-length") {
                             var partHeaderValue = node.partHeaders[partHeaderName];
-                            headersText += partHeaderName + ': ' + partHeaderValue;
-                            headersText += '\r\n'; // end of the header variable (key/value pair)
+                            //headersText += partHeaderName + ': ' + partHeaderValue;
+                            //headersText += '\r\n'; // end of the header variable (key/value pair)
                         }                          
                     }   
                     
-                    headersText += 'Content-length: ' + msg.payload.length;
-                    headersText += '\r\n'; // end of the content-length header variable (key/value pair)
-                    headersText += '\r\n'; // end of the header section
+                    //headersText += 'Content-length: ' + msg.payload.length;
+                    //headersText += '\r\n'; // end of the content-length header variable (key/value pair)
+                    //headersText += '\r\n'; // end of the header section
                     
                     var boundaryText = "";
                     //boundaryText += '\r\n'; // end of the part body                 
