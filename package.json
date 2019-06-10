@@ -10,12 +10,12 @@
     "license": "Apache-2.0",
     "keywords": [ "node-red", "multipart", "http", "stream", "mjpeg", "camera", "video", "encode" ],
     "bugs": {
-        "url": "https://github.com/bartbutenaers/node-red-contrib-multipart-stream-encoder/issues"
+        "url": "https://github.com/flight2k/node-red-contrib-multipart-stream-encoder/issues"
     },
-    "homepage": "https://github.com/bartbutenaers/node-red-contrib-multipart-stream-encoder",
+    "homepage": "https://github.com/flight2k/node-red-contrib-multipart-stream-encoder",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bartbutenaers/node-red-contrib-multipart-stream-encoder.git"
+        "url": "https://github.com/flight2k/node-red-contrib-multipart-stream-encoder.git"
     },
     "node-red"     : {
         "nodes": {
