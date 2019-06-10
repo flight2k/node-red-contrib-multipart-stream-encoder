@@ -260,9 +260,9 @@ module.exports = function(RED) {
                     headersText += '\r\n'; // end of the header section
                     
                     var boundaryText = "";
-                    boundaryText += '\r\n'; // end of the part body                 
-                    boundaryText += '--myboundary'; 
-                    boundaryText += '\r\n'; // end of the boundary
+                    //boundaryText += '\r\n'; // end of the part body                 
+                    //boundaryText += '--myboundary'; 
+                    //boundaryText += '\r\n'; // end of the boundary
                     
                     // Write the msg.payload to all relevant responses/clients
                     for (var [relevantResponse, settings] of relevantResponses.entries()) {
